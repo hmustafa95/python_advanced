@@ -1,3 +1,42 @@
+Multiplication Function
+Write a function called multiply that can receive any quantity of numbers (integers) as different parameters and returns the result of the multiplication of all of them. Submit only your function in the Judge system.
+Examples
+
+Person Info
+Write a function called get_info that receives a name, an age, and a town and returns a string in the format:  "This is {name} from {town} and he is {age} years old". Use dictionary unpacking when testing your function. Submit only the function in the judge system.
+Examples
+
+Cheese Showcase
+White a function called sorting_cheeses that receives keywords arguments:
+The key represents the name of the cheese
+The value is a list of quantities (integers) of the pieces of the given cheese
+The function should return the cheeses and their pieces' quantities sorted by the number of pieces of a cheese kind in descending order. If two or more cheeses have the same number of pieces, sort them by their names in ascending order (alphabetically). For each kind of cheese, return their pieces quantities in descending order.
+For more clarifications, see the examples below.
+
+Rectangle
+Create a function called rectangle(). It must have two parameters - length and width. 
+First, you need to check if the given arguments are integers:
+If one/ both of them is/ are NOT an integer/s, return the string "Enter valid values!"
+Create two inner functions:
+area() - returns the area of the rectangle with the given length and width
+perimeter() - returns the perimeter of the rectangle with the given length and width
+In the end, the rectangle function should return a string containing the area and the perimeter of a rectangle in the following format:
+"Rectangle area: {ract_area}
+Rectangle perimeter: {rect_perim}"
+Examples
+
+Recursive Power
+Create a recursive function called recursive_power() which should receive a number and a power. Using recursion, return the result of number ** power. Submit only the function in the judge system.
+Examples
+
+Operate
+Write a function called operate that receives an operator ("+", "-", "*" or "/") as first argument and multiple numbers (integers) as additional arguments (*args). The function should return the result of the operator applied to all the numbers. For more clarification, see the examples below. 
+Submit only your function in the Judge system.
+Note: Be careful when you have multiplication and division
+Examples
+
+
+
 Exercise: Functions Advanced Problems for exercise and homework for the Python Advanced Course @SoftUni.
 
 1. Negative vs Positive
