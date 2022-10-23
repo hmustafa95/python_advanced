@@ -1,3 +1,50 @@
+Sum Matrix Elements
+Write a program that reads a matrix from the console and prints:
+The sum of all numbers in the matrix
+The matrix itself
+On the first line, you will receive the matrix sizes in the format "{rows}, {columns}". On the next rows, you will get elements for each column separated by a comma and a space ", ". 
+Examples
+
+Even Matrix
+Write a program that receives a matrix of numbers and prints a new one only with the numbers that are even. Use nested comprehension for that problem. 
+On the first line, you will receive the rows of the matrix. On the next rows, you will get elements for each column separated with a comma and a space ", ".  
+Examples
+
+Flattening Matrix
+Write a program that receives a matrix and prints the flattened version of it (a list with all the values). For example, the flattened list of the matrix: [[1, 2], [3, 4]] will be [1, 2, 3, 4].
+On the first line, you will receive the number of a matrix's rows. On the next rows, you will get the elements for each column separated with a comma and a space ", ".
+Examples
+
+Sum Matrix Columns
+Write a program that reads a matrix from the console and prints the sum for each column on separate lines. 
+On the first line, you will get matrix sizes in format "{rows}, {columns}". On the next rows, you will get elements for each column separated with a single space. 
+Examples
+
+Hints
+Read matrix sizes.
+On the next row lines, read the columns.
+Traverse the matrix and sum all elements in each column.
+Print the sum and continue with the other columns.
+Primary Diagonal
+Write a program that finds the sum of all numbers in a matrix's primary diagonal (runs from top left to bottom right). On the first line, you will receive an integer N – the size of a square matrix. The next N lines holds the values for each column - N numbers, separated by a single space. 
+
+Examples
+
+Symbol in Matrix
+Write a program that reads a number - N, representing the rows and columns of a square matrix. On the next N lines, you will receive rows of the matrix. Each row consists of ASCII characters. After that, you will receive a symbol. Find the first occurrence of that symbol in the matrix and print its position in the format: "({row}, {col})". You should start searching from the top left. If there is no such symbol, print the message "{symbol} does not occur in the matrix".
+Examples
+
+Square with Maximum Sum
+Write a program that reads a matrix from the console and finds the 2x2 top-left submatrix with biggest sum of its values. 
+On first line you will get matrix sizes in format "{rows}, {columns}".  On the next rows, you will get elements for each column, separated with a comma and a space ", ". 
+You should print the found submatrix and the sum of its elements, as shown in the examples. 
+Examples
+
+Hints
+Be aware of IndexError
+If you find more than one max square, print the top-left one
+
+
 Exercises: Multidimensional Lists
 
 Problems for in-class lab for the Python Advanced Course @SoftUni.
