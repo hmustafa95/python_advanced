@@ -1,3 +1,39 @@
+Unique Usernames
+Write a program that reads from the console a sequence of N usernames and keeps a collection only of the unique ones. On the first line, you will receive an integer N. On the next N lines, you will receive a username. Print the collection on the console (the order does not matter):
+Examples
+
+Sets of Elements
+Write a program that prints a set of elements. On the first line, you will receive two numbers - n and m, separated by a single space - representing the lengths of two separate sets. On the next n + m lines, you will receive n numbers, which are the numbers in the first set, and m numbers, which are in the second set. Find all the unique elements that appear in both and print them on separate lines (the order does not matter).
+For example:
+Set with length n = 4: {1, 3, 5, 7}
+Set with length m = 3: {3, 4, 5}
+Set that contains all the elements that repeat in both sets -> {3, 5}
+Examples
+
+Periodic Table
+Write a program that keeps all the unique chemical elements. On the first line, you will be given a number n - the count of input lines that you will receive. On the following n lines, you will be receiving chemical compounds separated by a single space. Your task is to print all the unique ones on separate lines (the order does not matter):
+Examples
+
+Count Symbols
+Write a program that reads a text from the console and counts the occurrences of each character in it. Print the results in alphabetical (lexicographical) order.  
+Examples
+
+Longest Intersection
+Write a program that finds the longest intersection. You will be given a number N. On each of the next N lines you will be given two ranges in the format: "{first_start},{first_end}-{second_start},{second_end}". You should find the intersection of these two ranges. The start and end numbers in the ranges are inclusive. 
+Finally, you should find the longest intersection of all N intersections, print the numbers that are included and its length in the format: "Longest intersection is [{longest_intersection_numbers}] with length {length_longest_intersection}"
+Note: in each range, there will always be an intersection. If there are two equal intersections, print the first one.
+Examples
+
+Battle of Names
+You will receive a number N. On the following N lines, you will be receiving names. You should sum the ASCII values of each letter in the name and integer divide it by the number of the current row (starting from 1). Save the result to a set of either odd or even numbers, depending on if the resulting number is odd or even. After that, sum the values of each set.
+If the sums of the two sets are equal, print the union of the values, separated by ", ". 
+If the sum of the odd numbers is bigger than the sum of the even numbers, print the different values, separated by ", ".
+If the sum of the even numbers is bigger than the sum of the odd numbers, print the symmetric-different values, separated by ", ".
+NOTE: On every operation, the starting set should be the odd set
+Examples
+
+
+
 Count Same Values
 You will be given numbers separated by a space. Write a program that prints the number of occurrences of each number in the format "{number} - {count} times". The number must be formatted to the first decimal point.
 Examples
