@@ -1,1 +1,1 @@
-# python_advanced
+# Python Advanced Exercises - Softuni
